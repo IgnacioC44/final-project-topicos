@@ -46,8 +46,8 @@ def get_chunk_text(text):
     
     text_splitter = CharacterTextSplitter(
     separator = "\n",
-    chunk_size = 500,
-    chunk_overlap = 100,
+    chunk_size = 1000,
+    chunk_overlap = 200,
     length_function = len
     )
 
